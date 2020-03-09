@@ -1,0 +1,2759 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <ih_action>true</ih_action>
+        <internal_name>get_temp</internal_name>
+        <label_cache>[{"name":"{{step[839abc07-9243-4a52-abcb-32cddaeec949].payload}}","label":"step➛Payload Builder step➛Payload","type":"step","ref":""},{"name":"{{step[4a9b1bff-70d5-4502-901f-214b55164531].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":""},{"name":"{{step[cb5b55a3-5fac-40ad-89ec-5f1a394bdf74].parsed_temperature}}","label":"step➛Script step➛parsed_temperature","type":"step","ref":""}]</label_cache>
+        <latest_snapshot>a93e9af11b65c81078eddd3abc4bcbcb</latest_snapshot>
+        <master_snapshot>aacf69b91bad881078eddd3abc4bcb69</master_snapshot>
+        <name>Get ecobee Temp</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-06 18:19:41</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9f24a5fd1b2d881078eddd3abc4bcbad</sys_id>
+        <sys_mod_count>28</sys_mod_count>
+        <sys_name>Get ecobee Temp</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ecobeeNOW" source="x_snc_ecobee_now">4c4551791ba9881078eddd3abc4bcb55</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ecobeeNOW">4c4551791ba9881078eddd3abc4bcb55</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_9f24a5fd1b2d881078eddd3abc4bcbad</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-06 22:33:16</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=9f24a5fd1b2d881078eddd3abc4bcbad"/>
+    <sys_variable_value action="delete_multiple" query="document_key=9f24a5fd1b2d881078eddd3abc4bcbad"/>
+    <sys_element_mapping action="delete_multiple" query="id=9f24a5fd1b2d881078eddd3abc4bcbad"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ecotemperature</field>
+        <id>9f24a5fd1b2d881078eddd3abc4bcbad</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-06 19:08:59</sys_created_on>
+        <sys_id>e17fe9791bad881078eddd3abc4bcbb7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-06 19:08:59</sys_updated_on>
+        <table>var__m_sys_hub_action_output_9f24a5fd1b2d881078eddd3abc4bcbad</table>
+        <value>{{step[cb5b55a3-5fac-40ad-89ec-5f1a394bdf74].parsed_temperature}}</value>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=9f24a5fd1b2d881078eddd3abc4bcbad^sys_idNOT IN0ce4a1711b6d881078eddd3abc4bcb55,131fe9391bad881078eddd3abc4bcba9,9e6461311b6d881078eddd3abc4bcb11"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Get ecobee Temp">9f24a5fd1b2d881078eddd3abc4bcbad</action>
+        <cid>4a9b1bff-70d5-4502-901f-214b55164531</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>REST step</label>
+        <order>2</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-06 18:22:44</sys_created_on>
+        <sys_id>0ce4a1711b6d881078eddd3abc4bcb55</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="ecobeeNOW">4c4551791ba9881078eddd3abc4bcb55</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-06 22:33:12</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=0ce4a1711b6d881078eddd3abc4bcb55"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>0ce4a1711b6d881078eddd3abc4bcb55</document_key>
+        <order>13</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-06 18:22:45</sys_created_on>
+        <sys_id>10e4a1711b6d881078eddd3abc4bcb6e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-06 18:22:45</sys_updated_on>
+        <value>18409d8007482000dada43c0d1021e8f</value>
+        <variable display_value="">c30a451d2f201300a09a839fb18c95b4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>0ce4a1711b6d881078eddd3abc4bcb55</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-06 18:22:45</sys_created_on>
+        <sys_id>14e4a1711b6d881078eddd3abc4bcb6d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-06 18:22:45</sys_updated_on>
+        <value>ef751ff07301330025d71afe2ff6a7f9</value>
+        <variable display_value="">37be397587c03300a8cc7d5e27cb0ba2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>0ce4a1711b6d881078eddd3abc4bcb55</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-06 18:22:45</sys_created_on>
+        <sys_id>58e4a1711b6d881078eddd3abc4bcb6e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-06 18:22:45</sys_updated_on>
+        <value>{}</value>
+        <variable display_value="">4328e2fb47222200b4fad7527c9a7164</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>0ce4a1711b6d881078eddd3abc4bcb55</document_key>
+        <order>30</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-06 18:22:45</sys_created_on>
+        <sys_id>5ce4a1711b6d881078eddd3abc4bcb6d</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-06 22:33:12</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"Content-Type","value":"application/json"},{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"charset","value":"UTF-8"}]}</value>
+        <variable display_value="">371837f1c71003007b237f48cb9763b0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>0ce4a1711b6d881078eddd3abc4bcb55</document_key>
+        <order>12</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-06 18:22:45</sys_created_on>
+        <sys_id>94e4a1711b6d881078eddd3abc4bcb6e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-06 18:22:45</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>0ce4a1711b6d881078eddd3abc4bcb55</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-06 18:22:45</sys_created_on>
+        <sys_id>98e4a1711b6d881078eddd3abc4bcb6d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-06 18:22:45</sys_updated_on>
+        <value>/thermostat</value>
+        <variable display_value="">3d090af03b23320057a4a2e334efc455</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>0ce4a1711b6d881078eddd3abc4bcb55</document_key>
+        <order>15</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-06 18:22:45</sys_created_on>
+        <sys_id>d0e4a1711b6d881078eddd3abc4bcb6e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-06 18:22:45</sys_updated_on>
+        <value>https://api.ecobee.com/1</value>
+        <variable display_value="">a67a8ef03b23320057a4a2e334efc472</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>0ce4a1711b6d881078eddd3abc4bcb55</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-06 18:22:45</sys_created_on>
+        <sys_id>d4e4a1711b6d881078eddd3abc4bcb6d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-06 18:22:45</sys_updated_on>
+        <value>5e5599b91ba9881078eddd3abc4bcbbb</value>
+        <variable display_value="">262882f03b23320057a4a2e334efc4f0</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=0ce4a1711b6d881078eddd3abc4bcb55"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>0ce4a1711b6d881078eddd3abc4bcb55</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-06 18:22:45</sys_created_on>
+        <sys_id>dce4a1711b6d881078eddd3abc4bcb6c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-06 18:22:45</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>base_url</field>
+        <id>0ce4a1711b6d881078eddd3abc4bcb55</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-06 18:22:45</sys_created_on>
+        <sys_id>1ce4a1711b6d881078eddd3abc4bcb6c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-06 18:22:45</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>capabilities</field>
+        <id>0ce4a1711b6d881078eddd3abc4bcb55</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-06 18:22:45</sys_created_on>
+        <sys_id>58e4a1711b6d881078eddd3abc4bcb6c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-06 18:22:45</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection_alias</field>
+        <id>0ce4a1711b6d881078eddd3abc4bcb55</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-06 18:22:45</sys_created_on>
+        <sys_id>10e4a1711b6d881078eddd3abc4bcb6c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-06 18:22:45</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>headers</field>
+        <id>0ce4a1711b6d881078eddd3abc4bcb55</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-06 18:22:45</sys_created_on>
+        <sys_id>94e4a1711b6d881078eddd3abc4bcb6c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-06 18:22:45</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>query_params</field>
+        <id>0ce4a1711b6d881078eddd3abc4bcb55</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-06 18:22:45</sys_created_on>
+        <sys_id>90e4a1711b6d881078eddd3abc4bcb6d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-06 18:22:45</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value>{"type":"ADV_NV","value":[{"name":"json","value":"{\"selection\":{{step[839abc07-9243-4a52-abcb-32cddaeec949].payload}}}","attributes":{"omit_if_empty":false,"mandatory":false}}]}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>resource_path</field>
+        <id>0ce4a1711b6d881078eddd3abc4bcb55</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-06 18:22:45</sys_created_on>
+        <sys_id>d0e4a1711b6d881078eddd3abc4bcb6c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-06 18:22:45</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>retry_policy</field>
+        <id>0ce4a1711b6d881078eddd3abc4bcb55</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-06 18:22:45</sys_created_on>
+        <sys_id>5ce4a1711b6d881078eddd3abc4bcb6b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-06 18:22:45</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=0ce4a1711b6d881078eddd3abc4bcb55^sys_idNOT IN4ce4a1711b6d881078eddd3abc4bcb5d"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=password2,uiTypeLabel=Password (2 Way Encrypted)</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>sn_auth_token</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">password2</internal_type>
+        <label>Credential Value</label>
+        <mandatory>false</mandatory>
+        <max_length>255</max_length>
+        <model display_value="REST step">0ce4a1711b6d881078eddd3abc4bcb55</model>
+        <model_id>0ce4a1711b6d881078eddd3abc4bcb55</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_0ce4a1711b6d881078eddd3abc4bcb55</name>
+        <next_element/>
+        <order>7</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-06 18:22:44</sys_created_on>
+        <sys_id>4ce4a1711b6d881078eddd3abc4bcb5d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ecobeeNOW">4c4551791ba9881078eddd3abc4bcb55</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-06 18:26:18</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Get ecobee Temp">9f24a5fd1b2d881078eddd3abc4bcbad</action>
+        <cid>cb5b55a3-5fac-40ad-89ec-5f1a394bdf74</cid>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>3</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-06 19:07:28</sys_created_on>
+        <sys_id>131fe9391bad881078eddd3abc4bcba9</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="ecobeeNOW">4c4551791ba9881078eddd3abc4bcb55</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-06 19:07:54</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=131fe9391bad881078eddd3abc4bcba9"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>131fe9391bad881078eddd3abc4bcba9</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-06 19:07:29</sys_created_on>
+        <sys_id>e31fe9391bad881078eddd3abc4bcbbd</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-06 19:07:54</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+	var responseObject = JSON.parse(inputs.response_body);
+    var returned_temperature = responseObject.thermostatList[0].runtime.actualTemperature;
+	outputs.parsed_temperature = returned_temperature / 10;
+})(inputs, outputs);
+</value>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>131fe9391bad881078eddd3abc4bcba9</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-06 19:07:29</sys_created_on>
+        <sys_id>eb1fe9391bad881078eddd3abc4bcbbc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-06 19:07:29</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=131fe9391bad881078eddd3abc4bcba9"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>131fe9391bad881078eddd3abc4bcba9</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-06 19:07:29</sys_created_on>
+        <sys_id>a31fe9391bad881078eddd3abc4bcbbc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-06 19:07:29</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>response_body</field>
+        <id>131fe9391bad881078eddd3abc4bcba9</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-06 19:07:29</sys_created_on>
+        <sys_id>631fe9391bad881078eddd3abc4bcbbe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-06 19:07:29</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_131fe9391bad881078eddd3abc4bcba9</table>
+        <value>{{step[4a9b1bff-70d5-4502-901f-214b55164531].response_body}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>131fe9391bad881078eddd3abc4bcba9</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-06 19:07:29</sys_created_on>
+        <sys_id>6b1fe9391bad881078eddd3abc4bcbbc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-06 19:07:29</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=131fe9391bad881078eddd3abc4bcba9^sys_idNOT IN571fe9391bad881078eddd3abc4bcbad"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>response_body</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">131fe9391bad881078eddd3abc4bcba9</model>
+        <model_id>131fe9391bad881078eddd3abc4bcba9</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_131fe9391bad881078eddd3abc4bcba9</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-06 19:07:28</sys_created_on>
+        <sys_id>571fe9391bad881078eddd3abc4bcbad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ecobeeNOW">4c4551791ba9881078eddd3abc4bcb55</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-06 19:07:28</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=131fe9391bad881078eddd3abc4bcba9^sys_idNOT IN971fe9391bad881078eddd3abc4bcbb3"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>parsed_temperature</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>parsed_temperature</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">131fe9391bad881078eddd3abc4bcba9</model>
+        <model_id>131fe9391bad881078eddd3abc4bcba9</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_131fe9391bad881078eddd3abc4bcba9</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-06 19:07:28</sys_created_on>
+        <sys_id>971fe9391bad881078eddd3abc4bcbb3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ecobeeNOW">4c4551791ba9881078eddd3abc4bcb55</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-06 19:07:28</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Get ecobee Temp">9f24a5fd1b2d881078eddd3abc4bcbad</action>
+        <cid>839abc07-9243-4a52-abcb-32cddaeec949</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Payload Builder step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Payload Builder">2429af02b3331300176b051a16a8dcab</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-06 18:20:42</sys_created_on>
+        <sys_id>9e6461311b6d881078eddd3abc4bcb11</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="ecobeeNOW">4c4551791ba9881078eddd3abc4bcb55</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-06 18:20:42</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=9e6461311b6d881078eddd3abc4bcb11"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>9e6461311b6d881078eddd3abc4bcb11</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-06 18:20:42</sys_created_on>
+        <sys_id>d26461311b6d881078eddd3abc4bcb19</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-06 18:20:42</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[{"attributes":{},"name":"selectionType","value":"registered"},{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"selectionMatch","value":""},{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"includeRuntime","value":"true"}]}</value>
+        <variable display_value="">89cb2b82b3331300176b051a16a8dc32</variable>
+    </sys_variable_value>
+    <sys_hub_action_output action="delete_multiple" query="model=9f24a5fd1b2d881078eddd3abc4bcbad^sys_idNOT INa97fe9791bad881078eddd3abc4bcb96"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>ecotemperature</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>ecoTemperature</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Get ecobee Temp">9f24a5fd1b2d881078eddd3abc4bcbad</model>
+        <model_id>9f24a5fd1b2d881078eddd3abc4bcbad</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_9f24a5fd1b2d881078eddd3abc4bcbad</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-06 19:08:59</sys_created_on>
+        <sys_id>a97fe9791bad881078eddd3abc4bcb96</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ecobeeNOW">4c4551791ba9881078eddd3abc4bcb55</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-06 19:08:59</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_step_instance action="delete_multiple" query="action=9f24a5fd1b2d881078eddd3abc4bcbad^sys_idNOT IN0ce4a1711b6d881078eddd3abc4bcb55,131fe9391bad881078eddd3abc4bcba9,9e6461311b6d881078eddd3abc4bcb11"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Get ecobee Temp">9f24a5fd1b2d881078eddd3abc4bcbad</action>
+        <cid>4a9b1bff-70d5-4502-901f-214b55164531</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>REST step</label>
+        <order>2</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-06 18:22:44</sys_created_on>
+        <sys_id>0ce4a1711b6d881078eddd3abc4bcb55</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="ecobeeNOW">4c4551791ba9881078eddd3abc4bcb55</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-06 22:33:12</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=0ce4a1711b6d881078eddd3abc4bcb55"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>0ce4a1711b6d881078eddd3abc4bcb55</document_key>
+        <order>13</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-06 18:22:45</sys_created_on>
+        <sys_id>10e4a1711b6d881078eddd3abc4bcb6e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-06 18:22:45</sys_updated_on>
+        <value>18409d8007482000dada43c0d1021e8f</value>
+        <variable display_value="">c30a451d2f201300a09a839fb18c95b4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>0ce4a1711b6d881078eddd3abc4bcb55</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-06 18:22:45</sys_created_on>
+        <sys_id>14e4a1711b6d881078eddd3abc4bcb6d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-06 18:22:45</sys_updated_on>
+        <value>ef751ff07301330025d71afe2ff6a7f9</value>
+        <variable display_value="">37be397587c03300a8cc7d5e27cb0ba2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>0ce4a1711b6d881078eddd3abc4bcb55</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-06 18:22:45</sys_created_on>
+        <sys_id>58e4a1711b6d881078eddd3abc4bcb6e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-06 18:22:45</sys_updated_on>
+        <value>{}</value>
+        <variable display_value="">4328e2fb47222200b4fad7527c9a7164</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>0ce4a1711b6d881078eddd3abc4bcb55</document_key>
+        <order>30</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-06 18:22:45</sys_created_on>
+        <sys_id>5ce4a1711b6d881078eddd3abc4bcb6d</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-06 22:33:12</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"Content-Type","value":"application/json"},{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"charset","value":"UTF-8"}]}</value>
+        <variable display_value="">371837f1c71003007b237f48cb9763b0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>0ce4a1711b6d881078eddd3abc4bcb55</document_key>
+        <order>12</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-06 18:22:45</sys_created_on>
+        <sys_id>94e4a1711b6d881078eddd3abc4bcb6e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-06 18:22:45</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>0ce4a1711b6d881078eddd3abc4bcb55</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-06 18:22:45</sys_created_on>
+        <sys_id>98e4a1711b6d881078eddd3abc4bcb6d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-06 18:22:45</sys_updated_on>
+        <value>/thermostat</value>
+        <variable display_value="">3d090af03b23320057a4a2e334efc455</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>0ce4a1711b6d881078eddd3abc4bcb55</document_key>
+        <order>15</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-06 18:22:45</sys_created_on>
+        <sys_id>d0e4a1711b6d881078eddd3abc4bcb6e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-06 18:22:45</sys_updated_on>
+        <value>https://api.ecobee.com/1</value>
+        <variable display_value="">a67a8ef03b23320057a4a2e334efc472</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>0ce4a1711b6d881078eddd3abc4bcb55</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-06 18:22:45</sys_created_on>
+        <sys_id>d4e4a1711b6d881078eddd3abc4bcb6d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-06 18:22:45</sys_updated_on>
+        <value>5e5599b91ba9881078eddd3abc4bcbbb</value>
+        <variable display_value="">262882f03b23320057a4a2e334efc4f0</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=0ce4a1711b6d881078eddd3abc4bcb55"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>0ce4a1711b6d881078eddd3abc4bcb55</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-06 18:22:45</sys_created_on>
+        <sys_id>dce4a1711b6d881078eddd3abc4bcb6c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-06 18:22:45</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>base_url</field>
+        <id>0ce4a1711b6d881078eddd3abc4bcb55</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-06 18:22:45</sys_created_on>
+        <sys_id>1ce4a1711b6d881078eddd3abc4bcb6c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-06 18:22:45</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>capabilities</field>
+        <id>0ce4a1711b6d881078eddd3abc4bcb55</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-06 18:22:45</sys_created_on>
+        <sys_id>58e4a1711b6d881078eddd3abc4bcb6c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-06 18:22:45</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection_alias</field>
+        <id>0ce4a1711b6d881078eddd3abc4bcb55</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-06 18:22:45</sys_created_on>
+        <sys_id>10e4a1711b6d881078eddd3abc4bcb6c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-06 18:22:45</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>headers</field>
+        <id>0ce4a1711b6d881078eddd3abc4bcb55</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-06 18:22:45</sys_created_on>
+        <sys_id>94e4a1711b6d881078eddd3abc4bcb6c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-06 18:22:45</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>query_params</field>
+        <id>0ce4a1711b6d881078eddd3abc4bcb55</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-06 18:22:45</sys_created_on>
+        <sys_id>90e4a1711b6d881078eddd3abc4bcb6d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-06 18:22:45</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value>{"type":"ADV_NV","value":[{"name":"json","value":"{\"selection\":{{step[839abc07-9243-4a52-abcb-32cddaeec949].payload}}}","attributes":{"omit_if_empty":false,"mandatory":false}}]}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>resource_path</field>
+        <id>0ce4a1711b6d881078eddd3abc4bcb55</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-06 18:22:45</sys_created_on>
+        <sys_id>d0e4a1711b6d881078eddd3abc4bcb6c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-06 18:22:45</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>retry_policy</field>
+        <id>0ce4a1711b6d881078eddd3abc4bcb55</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-06 18:22:45</sys_created_on>
+        <sys_id>5ce4a1711b6d881078eddd3abc4bcb6b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-06 18:22:45</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=0ce4a1711b6d881078eddd3abc4bcb55^sys_idNOT IN4ce4a1711b6d881078eddd3abc4bcb5d"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=password2,uiTypeLabel=Password (2 Way Encrypted)</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>sn_auth_token</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">password2</internal_type>
+        <label>Credential Value</label>
+        <mandatory>false</mandatory>
+        <max_length>255</max_length>
+        <model display_value="REST step">0ce4a1711b6d881078eddd3abc4bcb55</model>
+        <model_id>0ce4a1711b6d881078eddd3abc4bcb55</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_0ce4a1711b6d881078eddd3abc4bcb55</name>
+        <next_element/>
+        <order>7</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-06 18:22:44</sys_created_on>
+        <sys_id>4ce4a1711b6d881078eddd3abc4bcb5d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ecobeeNOW">4c4551791ba9881078eddd3abc4bcb55</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-06 18:26:18</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Get ecobee Temp">9f24a5fd1b2d881078eddd3abc4bcbad</action>
+        <cid>cb5b55a3-5fac-40ad-89ec-5f1a394bdf74</cid>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>3</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-06 19:07:28</sys_created_on>
+        <sys_id>131fe9391bad881078eddd3abc4bcba9</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="ecobeeNOW">4c4551791ba9881078eddd3abc4bcb55</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-06 19:07:54</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=131fe9391bad881078eddd3abc4bcba9"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>131fe9391bad881078eddd3abc4bcba9</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-06 19:07:29</sys_created_on>
+        <sys_id>e31fe9391bad881078eddd3abc4bcbbd</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-06 19:07:54</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+	var responseObject = JSON.parse(inputs.response_body);
+    var returned_temperature = responseObject.thermostatList[0].runtime.actualTemperature;
+	outputs.parsed_temperature = returned_temperature / 10;
+})(inputs, outputs);
+</value>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>131fe9391bad881078eddd3abc4bcba9</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-06 19:07:29</sys_created_on>
+        <sys_id>eb1fe9391bad881078eddd3abc4bcbbc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-06 19:07:29</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=131fe9391bad881078eddd3abc4bcba9"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>131fe9391bad881078eddd3abc4bcba9</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-06 19:07:29</sys_created_on>
+        <sys_id>a31fe9391bad881078eddd3abc4bcbbc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-06 19:07:29</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>response_body</field>
+        <id>131fe9391bad881078eddd3abc4bcba9</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-06 19:07:29</sys_created_on>
+        <sys_id>631fe9391bad881078eddd3abc4bcbbe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-06 19:07:29</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_131fe9391bad881078eddd3abc4bcba9</table>
+        <value>{{step[4a9b1bff-70d5-4502-901f-214b55164531].response_body}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>131fe9391bad881078eddd3abc4bcba9</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-06 19:07:29</sys_created_on>
+        <sys_id>6b1fe9391bad881078eddd3abc4bcbbc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-06 19:07:29</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=131fe9391bad881078eddd3abc4bcba9^sys_idNOT IN571fe9391bad881078eddd3abc4bcbad"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>response_body</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">131fe9391bad881078eddd3abc4bcba9</model>
+        <model_id>131fe9391bad881078eddd3abc4bcba9</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_131fe9391bad881078eddd3abc4bcba9</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-06 19:07:28</sys_created_on>
+        <sys_id>571fe9391bad881078eddd3abc4bcbad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ecobeeNOW">4c4551791ba9881078eddd3abc4bcb55</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-06 19:07:28</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=131fe9391bad881078eddd3abc4bcba9^sys_idNOT IN971fe9391bad881078eddd3abc4bcbb3"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>parsed_temperature</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>parsed_temperature</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">131fe9391bad881078eddd3abc4bcba9</model>
+        <model_id>131fe9391bad881078eddd3abc4bcba9</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_131fe9391bad881078eddd3abc4bcba9</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-06 19:07:28</sys_created_on>
+        <sys_id>971fe9391bad881078eddd3abc4bcbb3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ecobeeNOW">4c4551791ba9881078eddd3abc4bcb55</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-06 19:07:28</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Get ecobee Temp">9f24a5fd1b2d881078eddd3abc4bcbad</action>
+        <cid>839abc07-9243-4a52-abcb-32cddaeec949</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Payload Builder step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Payload Builder">2429af02b3331300176b051a16a8dcab</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-06 18:20:42</sys_created_on>
+        <sys_id>9e6461311b6d881078eddd3abc4bcb11</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="ecobeeNOW">4c4551791ba9881078eddd3abc4bcb55</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-06 18:20:42</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=9e6461311b6d881078eddd3abc4bcb11"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>9e6461311b6d881078eddd3abc4bcb11</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-06 18:20:42</sys_created_on>
+        <sys_id>d26461311b6d881078eddd3abc4bcb19</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-06 18:20:42</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[{"attributes":{},"name":"selectionType","value":"registered"},{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"selectionMatch","value":""},{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"includeRuntime","value":"true"}]}</value>
+        <variable display_value="">89cb2b82b3331300176b051a16a8dc32</variable>
+    </sys_variable_value>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_9f24a5fd1b2d881078eddd3abc4bcbad^sys_idNOT IN217fe9791bad881078eddd3abc4bcbb5"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>ecotemperature</element>
+        <help/>
+        <hint/>
+        <label>ecoTemperature</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_9f24a5fd1b2d881078eddd3abc4bcbad</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-06 19:08:59</sys_created_on>
+        <sys_id>217fe9791bad881078eddd3abc4bcbb5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ecoTemperature</sys_name>
+        <sys_package display_value="ecobeeNOW" source="x_snc_ecobee_now">4c4551791ba9881078eddd3abc4bcb55</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ecobeeNOW">4c4551791ba9881078eddd3abc4bcb55</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_9f24a5fd1b2d881078eddd3abc4bcbad_ecotemperature_en</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-06 19:08:59</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=9f24a5fd1b2d881078eddd3abc4bcbad^sys_idNOT INebcfe9b91bad881078eddd3abc4bcb17"/>
+    <sys_hub_action_plan action="INSERT_OR_UPDATE">
+        <action_id display_value="Get ecobee Temp">9f24a5fd1b2d881078eddd3abc4bcbad</action_id>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"ebcfe9b91bad881078eddd3abc4bcb17","name":"plan"}}</plan>
+        <snapshot>a93e9af11b65c81078eddd3abc4bcbcb</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-06 19:10:30</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ebcfe9b91bad881078eddd3abc4bcb17</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-06 22:33:17</sys_updated_on>
+    </sys_hub_action_plan>
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_template/>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>get_temp</internal_name>
+        <label_cache>[{"name":"{{step[839abc07-9243-4a52-abcb-32cddaeec949].payload}}","label":"step➛Payload Builder step➛Payload","type":"step","ref":""},{"name":"{{step[4a9b1bff-70d5-4502-901f-214b55164531].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":""},{"name":"{{step[cb5b55a3-5fac-40ad-89ec-5f1a394bdf74].parsed_temperature}}","label":"step➛Script step➛parsed_temperature","type":"step","ref":""}]</label_cache>
+        <master>true</master>
+        <name>Get ecobee Temp</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <parent_action display_value="Get ecobee Temp">9f24a5fd1b2d881078eddd3abc4bcbad</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-06 19:10:26</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>aacf69b91bad881078eddd3abc4bcb69</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ecobeeNOW">4c4551791ba9881078eddd3abc4bcb55</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-06 19:10:53</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=aacf69b91bad881078eddd3abc4bcb69"/>
+    <sys_variable_value action="delete_multiple" query="document_key=aacf69b91bad881078eddd3abc4bcb69"/>
+    <sys_element_mapping action="delete_multiple" query="id=aacf69b91bad881078eddd3abc4bcb69"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ecotemperature</field>
+        <id>aacf69b91bad881078eddd3abc4bcb69</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-06 19:10:27</sys_created_on>
+        <sys_id>cbcf69b91bad881078eddd3abc4bcbf9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-06 19:10:27</sys_updated_on>
+        <table>var__m_sys_hub_action_output_aacf69b91bad881078eddd3abc4bcb69</table>
+        <value>{{step[cb5b55a3-5fac-40ad-89ec-5f1a394bdf74].parsed_temperature}}</value>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=aacf69b91bad881078eddd3abc4bcb69^sys_idNOT IN22cf69b91bad881078eddd3abc4bcb6b,62cf69b91bad881078eddd3abc4bcb71,7ecf69b91bad881078eddd3abc4bcbac"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Get ecobee Temp">aacf69b91bad881078eddd3abc4bcb69</action>
+        <cid>839abc07-9243-4a52-abcb-32cddaeec949</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Payload Builder step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Payload Builder">2429af02b3331300176b051a16a8dcab</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-06 19:10:26</sys_created_on>
+        <sys_id>22cf69b91bad881078eddd3abc4bcb6b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="ecobeeNOW">4c4551791ba9881078eddd3abc4bcb55</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-06 19:10:26</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=22cf69b91bad881078eddd3abc4bcb6b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>22cf69b91bad881078eddd3abc4bcb6b</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-06 19:10:26</sys_created_on>
+        <sys_id>eecf69b91bad881078eddd3abc4bcb6f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-06 19:10:26</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[{"attributes":{},"name":"selectionType","value":"registered"},{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"selectionMatch","value":""},{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"includeRuntime","value":"true"}]}</value>
+        <variable display_value="">89cb2b82b3331300176b051a16a8dc32</variable>
+    </sys_variable_value>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Get ecobee Temp">aacf69b91bad881078eddd3abc4bcb69</action>
+        <cid>4a9b1bff-70d5-4502-901f-214b55164531</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>REST step</label>
+        <order>2</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-06 19:10:26</sys_created_on>
+        <sys_id>62cf69b91bad881078eddd3abc4bcb71</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="ecobeeNOW">4c4551791ba9881078eddd3abc4bcb55</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-06 22:33:15</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=62cf69b91bad881078eddd3abc4bcb71"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>62cf69b91bad881078eddd3abc4bcb71</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-06 19:10:26</sys_created_on>
+        <sys_id>32cf69b91bad881078eddd3abc4bcba8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-06 19:10:26</sys_updated_on>
+        <value>5e5599b91ba9881078eddd3abc4bcbbb</value>
+        <variable display_value="">262882f03b23320057a4a2e334efc4f0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>62cf69b91bad881078eddd3abc4bcb71</document_key>
+        <order>15</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-06 19:10:26</sys_created_on>
+        <sys_id>3ecf69b91bad881078eddd3abc4bcba8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-06 19:10:26</sys_updated_on>
+        <value>https://api.ecobee.com/1</value>
+        <variable display_value="">a67a8ef03b23320057a4a2e334efc472</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>62cf69b91bad881078eddd3abc4bcb71</document_key>
+        <order>13</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-06 19:10:26</sys_created_on>
+        <sys_id>7acf69b91bad881078eddd3abc4bcba8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-06 19:10:26</sys_updated_on>
+        <value>18409d8007482000dada43c0d1021e8f</value>
+        <variable display_value="">c30a451d2f201300a09a839fb18c95b4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>62cf69b91bad881078eddd3abc4bcb71</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-06 19:10:26</sys_created_on>
+        <sys_id>7ecf69b91bad881078eddd3abc4bcba7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-06 19:10:26</sys_updated_on>
+        <value>ef751ff07301330025d71afe2ff6a7f9</value>
+        <variable display_value="">37be397587c03300a8cc7d5e27cb0ba2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>62cf69b91bad881078eddd3abc4bcb71</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-06 19:10:26</sys_created_on>
+        <sys_id>b2cf69b91bad881078eddd3abc4bcba9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-06 19:10:26</sys_updated_on>
+        <value>{}</value>
+        <variable display_value="">4328e2fb47222200b4fad7527c9a7164</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>62cf69b91bad881078eddd3abc4bcb71</document_key>
+        <order>30</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-06 19:10:26</sys_created_on>
+        <sys_id>b6cf69b91bad881078eddd3abc4bcba8</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-06 22:33:15</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"Content-Type","value":"application/json"},{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"charset","value":"UTF-8"}]}</value>
+        <variable display_value="">371837f1c71003007b237f48cb9763b0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>62cf69b91bad881078eddd3abc4bcb71</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-06 19:10:26</sys_created_on>
+        <sys_id>f2cf69b91bad881078eddd3abc4bcba8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-06 19:10:26</sys_updated_on>
+        <value>/thermostat</value>
+        <variable display_value="">3d090af03b23320057a4a2e334efc455</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>62cf69b91bad881078eddd3abc4bcb71</document_key>
+        <order>12</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-06 19:10:26</sys_created_on>
+        <sys_id>fecf69b91bad881078eddd3abc4bcba8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-06 19:10:26</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=62cf69b91bad881078eddd3abc4bcb71"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>62cf69b91bad881078eddd3abc4bcb71</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-06 19:10:26</sys_created_on>
+        <sys_id>3acf69b91bad881078eddd3abc4bcba7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-06 19:10:26</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>base_url</field>
+        <id>62cf69b91bad881078eddd3abc4bcb71</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-06 19:10:26</sys_created_on>
+        <sys_id>76cf69b91bad881078eddd3abc4bcba7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-06 19:10:26</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>capabilities</field>
+        <id>62cf69b91bad881078eddd3abc4bcb71</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-06 19:10:26</sys_created_on>
+        <sys_id>b2cf69b91bad881078eddd3abc4bcba7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-06 19:10:26</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection_alias</field>
+        <id>62cf69b91bad881078eddd3abc4bcb71</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-06 19:10:26</sys_created_on>
+        <sys_id>7acf69b91bad881078eddd3abc4bcba6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-06 19:10:26</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>headers</field>
+        <id>62cf69b91bad881078eddd3abc4bcb71</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-06 19:10:26</sys_created_on>
+        <sys_id>fecf69b91bad881078eddd3abc4bcba6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-06 19:10:26</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>query_params</field>
+        <id>62cf69b91bad881078eddd3abc4bcb71</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-06 19:10:26</sys_created_on>
+        <sys_id>facf69b91bad881078eddd3abc4bcba7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-06 19:10:26</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value>{"type":"ADV_NV","value":[{"name":"json","value":"{\"selection\":{{step[839abc07-9243-4a52-abcb-32cddaeec949].payload}}}","attributes":{"omit_if_empty":false,"mandatory":false}}]}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>resource_path</field>
+        <id>62cf69b91bad881078eddd3abc4bcb71</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-06 19:10:26</sys_created_on>
+        <sys_id>3ecf69b91bad881078eddd3abc4bcba6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-06 19:10:26</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>retry_policy</field>
+        <id>62cf69b91bad881078eddd3abc4bcb71</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-06 19:10:26</sys_created_on>
+        <sys_id>b6cf69b91bad881078eddd3abc4bcba6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-06 19:10:26</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=62cf69b91bad881078eddd3abc4bcb71^sys_idNOT IN7ecf69b91bad881078eddd3abc4bcb8f"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=password2,uiTypeLabel=Password (2 Way Encrypted)</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>sn_auth_token</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">password2</internal_type>
+        <label>Credential Value</label>
+        <mandatory>false</mandatory>
+        <max_length>255</max_length>
+        <model display_value="REST step">62cf69b91bad881078eddd3abc4bcb71</model>
+        <model_id>62cf69b91bad881078eddd3abc4bcb71</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_62cf69b91bad881078eddd3abc4bcb71</name>
+        <next_element/>
+        <order>7</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-06 19:10:26</sys_created_on>
+        <sys_id>7ecf69b91bad881078eddd3abc4bcb8f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ecobeeNOW">4c4551791ba9881078eddd3abc4bcb55</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-06 19:10:26</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Get ecobee Temp">aacf69b91bad881078eddd3abc4bcb69</action>
+        <cid>cb5b55a3-5fac-40ad-89ec-5f1a394bdf74</cid>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>3</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-06 19:10:26</sys_created_on>
+        <sys_id>7ecf69b91bad881078eddd3abc4bcbac</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="ecobeeNOW">4c4551791ba9881078eddd3abc4bcb55</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-06 19:10:27</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=7ecf69b91bad881078eddd3abc4bcbac"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>7ecf69b91bad881078eddd3abc4bcbac</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-06 19:10:27</sys_created_on>
+        <sys_id>36cf69b91bad881078eddd3abc4bcbef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-06 19:10:27</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>7ecf69b91bad881078eddd3abc4bcbac</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-06 19:10:27</sys_created_on>
+        <sys_id>f6cf69b91bad881078eddd3abc4bcbef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-06 19:10:27</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+	var responseObject = JSON.parse(inputs.response_body);
+    var returned_temperature = responseObject.thermostatList[0].runtime.actualTemperature;
+	outputs.parsed_temperature = returned_temperature / 10;
+})(inputs, outputs);
+</value>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=7ecf69b91bad881078eddd3abc4bcbac"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>7ecf69b91bad881078eddd3abc4bcbac</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-06 19:10:27</sys_created_on>
+        <sys_id>fecf69b91bad881078eddd3abc4bcbee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-06 19:10:27</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>response_body</field>
+        <id>7ecf69b91bad881078eddd3abc4bcbac</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-06 19:10:27</sys_created_on>
+        <sys_id>72cf69b91bad881078eddd3abc4bcbf0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-06 19:10:27</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_7ecf69b91bad881078eddd3abc4bcbac</table>
+        <value>{{step[4a9b1bff-70d5-4502-901f-214b55164531].response_body}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>7ecf69b91bad881078eddd3abc4bcbac</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-06 19:10:27</sys_created_on>
+        <sys_id>b2cf69b91bad881078eddd3abc4bcbef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-06 19:10:27</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=7ecf69b91bad881078eddd3abc4bcbac^sys_idNOT IN7acf69b91bad881078eddd3abc4bcbaf"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>response_body</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>response_body</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">7ecf69b91bad881078eddd3abc4bcbac</model>
+        <model_id>7ecf69b91bad881078eddd3abc4bcbac</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_7ecf69b91bad881078eddd3abc4bcbac</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-06 19:10:26</sys_created_on>
+        <sys_id>7acf69b91bad881078eddd3abc4bcbaf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ecobeeNOW">4c4551791ba9881078eddd3abc4bcb55</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-06 19:10:26</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=7ecf69b91bad881078eddd3abc4bcbac^sys_idNOT INfecf69b91bad881078eddd3abc4bcbc1"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>parsed_temperature</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>parsed_temperature</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">7ecf69b91bad881078eddd3abc4bcbac</model>
+        <model_id>7ecf69b91bad881078eddd3abc4bcbac</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_7ecf69b91bad881078eddd3abc4bcbac</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-06 19:10:26</sys_created_on>
+        <sys_id>fecf69b91bad881078eddd3abc4bcbc1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ecobeeNOW">4c4551791ba9881078eddd3abc4bcb55</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-06 19:10:26</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_action_output action="delete_multiple" query="model=aacf69b91bad881078eddd3abc4bcb69^sys_idNOT IN3acf69b91bad881078eddd3abc4bcbf2"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>ecotemperature</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>ecoTemperature</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Get ecobee Temp">aacf69b91bad881078eddd3abc4bcb69</model>
+        <model_id>aacf69b91bad881078eddd3abc4bcb69</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_aacf69b91bad881078eddd3abc4bcb69</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-06 19:10:27</sys_created_on>
+        <sys_id>3acf69b91bad881078eddd3abc4bcbf2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ecobeeNOW">4c4551791ba9881078eddd3abc4bcb55</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-06 19:10:27</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_step_instance action="delete_multiple" query="action=aacf69b91bad881078eddd3abc4bcb69^sys_idNOT IN22cf69b91bad881078eddd3abc4bcb6b,62cf69b91bad881078eddd3abc4bcb71,7ecf69b91bad881078eddd3abc4bcbac"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Get ecobee Temp">aacf69b91bad881078eddd3abc4bcb69</action>
+        <cid>839abc07-9243-4a52-abcb-32cddaeec949</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Payload Builder step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Payload Builder">2429af02b3331300176b051a16a8dcab</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-06 19:10:26</sys_created_on>
+        <sys_id>22cf69b91bad881078eddd3abc4bcb6b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="ecobeeNOW">4c4551791ba9881078eddd3abc4bcb55</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-06 19:10:26</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=22cf69b91bad881078eddd3abc4bcb6b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>22cf69b91bad881078eddd3abc4bcb6b</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-06 19:10:26</sys_created_on>
+        <sys_id>eecf69b91bad881078eddd3abc4bcb6f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-06 19:10:26</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[{"attributes":{},"name":"selectionType","value":"registered"},{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"selectionMatch","value":""},{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"includeRuntime","value":"true"}]}</value>
+        <variable display_value="">89cb2b82b3331300176b051a16a8dc32</variable>
+    </sys_variable_value>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Get ecobee Temp">aacf69b91bad881078eddd3abc4bcb69</action>
+        <cid>4a9b1bff-70d5-4502-901f-214b55164531</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>REST step</label>
+        <order>2</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-06 19:10:26</sys_created_on>
+        <sys_id>62cf69b91bad881078eddd3abc4bcb71</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="ecobeeNOW">4c4551791ba9881078eddd3abc4bcb55</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-06 22:33:15</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=62cf69b91bad881078eddd3abc4bcb71"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>62cf69b91bad881078eddd3abc4bcb71</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-06 19:10:26</sys_created_on>
+        <sys_id>32cf69b91bad881078eddd3abc4bcba8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-06 19:10:26</sys_updated_on>
+        <value>5e5599b91ba9881078eddd3abc4bcbbb</value>
+        <variable display_value="">262882f03b23320057a4a2e334efc4f0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>62cf69b91bad881078eddd3abc4bcb71</document_key>
+        <order>15</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-06 19:10:26</sys_created_on>
+        <sys_id>3ecf69b91bad881078eddd3abc4bcba8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-06 19:10:26</sys_updated_on>
+        <value>https://api.ecobee.com/1</value>
+        <variable display_value="">a67a8ef03b23320057a4a2e334efc472</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>62cf69b91bad881078eddd3abc4bcb71</document_key>
+        <order>13</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-06 19:10:26</sys_created_on>
+        <sys_id>7acf69b91bad881078eddd3abc4bcba8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-06 19:10:26</sys_updated_on>
+        <value>18409d8007482000dada43c0d1021e8f</value>
+        <variable display_value="">c30a451d2f201300a09a839fb18c95b4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>62cf69b91bad881078eddd3abc4bcb71</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-06 19:10:26</sys_created_on>
+        <sys_id>7ecf69b91bad881078eddd3abc4bcba7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-06 19:10:26</sys_updated_on>
+        <value>ef751ff07301330025d71afe2ff6a7f9</value>
+        <variable display_value="">37be397587c03300a8cc7d5e27cb0ba2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>62cf69b91bad881078eddd3abc4bcb71</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-06 19:10:26</sys_created_on>
+        <sys_id>b2cf69b91bad881078eddd3abc4bcba9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-06 19:10:26</sys_updated_on>
+        <value>{}</value>
+        <variable display_value="">4328e2fb47222200b4fad7527c9a7164</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>62cf69b91bad881078eddd3abc4bcb71</document_key>
+        <order>30</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-06 19:10:26</sys_created_on>
+        <sys_id>b6cf69b91bad881078eddd3abc4bcba8</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-06 22:33:15</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"Content-Type","value":"application/json"},{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"charset","value":"UTF-8"}]}</value>
+        <variable display_value="">371837f1c71003007b237f48cb9763b0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>62cf69b91bad881078eddd3abc4bcb71</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-06 19:10:26</sys_created_on>
+        <sys_id>f2cf69b91bad881078eddd3abc4bcba8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-06 19:10:26</sys_updated_on>
+        <value>/thermostat</value>
+        <variable display_value="">3d090af03b23320057a4a2e334efc455</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>62cf69b91bad881078eddd3abc4bcb71</document_key>
+        <order>12</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-06 19:10:26</sys_created_on>
+        <sys_id>fecf69b91bad881078eddd3abc4bcba8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-06 19:10:26</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=62cf69b91bad881078eddd3abc4bcb71"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>62cf69b91bad881078eddd3abc4bcb71</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-06 19:10:26</sys_created_on>
+        <sys_id>3acf69b91bad881078eddd3abc4bcba7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-06 19:10:26</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>base_url</field>
+        <id>62cf69b91bad881078eddd3abc4bcb71</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-06 19:10:26</sys_created_on>
+        <sys_id>76cf69b91bad881078eddd3abc4bcba7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-06 19:10:26</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>capabilities</field>
+        <id>62cf69b91bad881078eddd3abc4bcb71</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-06 19:10:26</sys_created_on>
+        <sys_id>b2cf69b91bad881078eddd3abc4bcba7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-06 19:10:26</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection_alias</field>
+        <id>62cf69b91bad881078eddd3abc4bcb71</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-06 19:10:26</sys_created_on>
+        <sys_id>7acf69b91bad881078eddd3abc4bcba6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-06 19:10:26</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>headers</field>
+        <id>62cf69b91bad881078eddd3abc4bcb71</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-06 19:10:26</sys_created_on>
+        <sys_id>fecf69b91bad881078eddd3abc4bcba6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-06 19:10:26</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>query_params</field>
+        <id>62cf69b91bad881078eddd3abc4bcb71</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-06 19:10:26</sys_created_on>
+        <sys_id>facf69b91bad881078eddd3abc4bcba7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-06 19:10:26</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value>{"type":"ADV_NV","value":[{"name":"json","value":"{\"selection\":{{step[839abc07-9243-4a52-abcb-32cddaeec949].payload}}}","attributes":{"omit_if_empty":false,"mandatory":false}}]}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>resource_path</field>
+        <id>62cf69b91bad881078eddd3abc4bcb71</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-06 19:10:26</sys_created_on>
+        <sys_id>3ecf69b91bad881078eddd3abc4bcba6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-06 19:10:26</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>retry_policy</field>
+        <id>62cf69b91bad881078eddd3abc4bcb71</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-06 19:10:26</sys_created_on>
+        <sys_id>b6cf69b91bad881078eddd3abc4bcba6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-06 19:10:26</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=62cf69b91bad881078eddd3abc4bcb71^sys_idNOT IN7ecf69b91bad881078eddd3abc4bcb8f"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=password2,uiTypeLabel=Password (2 Way Encrypted)</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>sn_auth_token</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">password2</internal_type>
+        <label>Credential Value</label>
+        <mandatory>false</mandatory>
+        <max_length>255</max_length>
+        <model display_value="REST step">62cf69b91bad881078eddd3abc4bcb71</model>
+        <model_id>62cf69b91bad881078eddd3abc4bcb71</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_62cf69b91bad881078eddd3abc4bcb71</name>
+        <next_element/>
+        <order>7</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-06 19:10:26</sys_created_on>
+        <sys_id>7ecf69b91bad881078eddd3abc4bcb8f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ecobeeNOW">4c4551791ba9881078eddd3abc4bcb55</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-06 19:10:26</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Get ecobee Temp">aacf69b91bad881078eddd3abc4bcb69</action>
+        <cid>cb5b55a3-5fac-40ad-89ec-5f1a394bdf74</cid>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>3</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-06 19:10:26</sys_created_on>
+        <sys_id>7ecf69b91bad881078eddd3abc4bcbac</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="ecobeeNOW">4c4551791ba9881078eddd3abc4bcb55</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-06 19:10:27</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=7ecf69b91bad881078eddd3abc4bcbac"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>7ecf69b91bad881078eddd3abc4bcbac</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-06 19:10:27</sys_created_on>
+        <sys_id>36cf69b91bad881078eddd3abc4bcbef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-06 19:10:27</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>7ecf69b91bad881078eddd3abc4bcbac</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-06 19:10:27</sys_created_on>
+        <sys_id>f6cf69b91bad881078eddd3abc4bcbef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-06 19:10:27</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+	var responseObject = JSON.parse(inputs.response_body);
+    var returned_temperature = responseObject.thermostatList[0].runtime.actualTemperature;
+	outputs.parsed_temperature = returned_temperature / 10;
+})(inputs, outputs);
+</value>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=7ecf69b91bad881078eddd3abc4bcbac"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>7ecf69b91bad881078eddd3abc4bcbac</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-06 19:10:27</sys_created_on>
+        <sys_id>fecf69b91bad881078eddd3abc4bcbee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-06 19:10:27</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>response_body</field>
+        <id>7ecf69b91bad881078eddd3abc4bcbac</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-06 19:10:27</sys_created_on>
+        <sys_id>72cf69b91bad881078eddd3abc4bcbf0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-06 19:10:27</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_7ecf69b91bad881078eddd3abc4bcbac</table>
+        <value>{{step[4a9b1bff-70d5-4502-901f-214b55164531].response_body}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>7ecf69b91bad881078eddd3abc4bcbac</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-06 19:10:27</sys_created_on>
+        <sys_id>b2cf69b91bad881078eddd3abc4bcbef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-06 19:10:27</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=7ecf69b91bad881078eddd3abc4bcbac^sys_idNOT IN7acf69b91bad881078eddd3abc4bcbaf"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>response_body</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>response_body</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">7ecf69b91bad881078eddd3abc4bcbac</model>
+        <model_id>7ecf69b91bad881078eddd3abc4bcbac</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_7ecf69b91bad881078eddd3abc4bcbac</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-06 19:10:26</sys_created_on>
+        <sys_id>7acf69b91bad881078eddd3abc4bcbaf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ecobeeNOW">4c4551791ba9881078eddd3abc4bcb55</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-06 19:10:26</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=7ecf69b91bad881078eddd3abc4bcbac^sys_idNOT INfecf69b91bad881078eddd3abc4bcbc1"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>parsed_temperature</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>parsed_temperature</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">7ecf69b91bad881078eddd3abc4bcbac</model>
+        <model_id>7ecf69b91bad881078eddd3abc4bcbac</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_7ecf69b91bad881078eddd3abc4bcbac</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-06 19:10:26</sys_created_on>
+        <sys_id>fecf69b91bad881078eddd3abc4bcbc1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ecobeeNOW">4c4551791ba9881078eddd3abc4bcb55</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-06 19:10:26</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_aacf69b91bad881078eddd3abc4bcb69^sys_idNOT INf6cf69b91bad881078eddd3abc4bcbf7"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>ecotemperature</element>
+        <help/>
+        <hint/>
+        <label>ecoTemperature</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_aacf69b91bad881078eddd3abc4bcb69</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-06 19:10:27</sys_created_on>
+        <sys_id>f6cf69b91bad881078eddd3abc4bcbf7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ecoTemperature</sys_name>
+        <sys_package display_value="ecobeeNOW" source="x_snc_ecobee_now">4c4551791ba9881078eddd3abc4bcb55</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ecobeeNOW">4c4551791ba9881078eddd3abc4bcb55</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_aacf69b91bad881078eddd3abc4bcb69_ecotemperature_en</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-06 19:10:27</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+</record_update>

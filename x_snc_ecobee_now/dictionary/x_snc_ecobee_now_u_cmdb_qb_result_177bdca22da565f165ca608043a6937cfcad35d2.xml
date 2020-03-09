@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="cmdb_qb_result_base" label="Query Results" max_length="40" name="x_snc_ecobee_now_u_cmdb_qb_result_177bdca22da565f165ca608043a6937cfcad35d2" sizeclass="0" type="collection"/>
+</database>

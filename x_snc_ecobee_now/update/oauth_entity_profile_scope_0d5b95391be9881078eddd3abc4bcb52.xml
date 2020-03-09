@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity_profile_scope">
+    <oauth_entity_profile_scope action="INSERT_OR_UPDATE">
+        <oauth_entity_profile display_value="ecobee OAuth Provider default_profile">0e4b51391be9881078eddd3abc4bcb9f</oauth_entity_profile>
+        <oauth_entity_scope display_value="scope">b56b19391be9881078eddd3abc4bcbf7</oauth_entity_scope>
+        <sys_class_name>oauth_entity_profile_scope</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-06 17:41:43</sys_created_on>
+        <sys_id>0d5b95391be9881078eddd3abc4bcb52</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>0e4b51391be9881078eddd3abc4bcb9f</sys_name>
+        <sys_package display_value="ecobeeNOW" source="x_snc_ecobee_now">4c4551791ba9881078eddd3abc4bcb55</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ecobeeNOW">4c4551791ba9881078eddd3abc4bcb55</sys_scope>
+        <sys_update_name>oauth_entity_profile_scope_0d5b95391be9881078eddd3abc4bcb52</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-06 17:41:43</sys_updated_on>
+    </oauth_entity_profile_scope>
+</record_update>
